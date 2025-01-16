@@ -21,6 +21,8 @@ import com.example.service.MessageService;
  */
 @RestController
 public class SocialMediaController {
+
+    //Have Spring create the services the controller will use
     @Autowired
     AccountService aS;
     @Autowired
